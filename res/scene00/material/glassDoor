@@ -1,0 +1,11 @@
+material( "material/glassDoor" )
+{
+	tfl0( 0 )
+	t0( "image/glass16x16.tga" )
+	d( 0.987 0.987 0.987 )
+	sp( 1 1 1 )
+	a( 0.5 )
+	sh( 62 )
+	fr( 0.5 )
+	b( 13 )
+}

@@ -1,0 +1,1983 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>atlas</key>
+	<dict>
+		<key>icons</key>
+		<dict>
+			<key>strips</key>
+			<dict>
+				<key>giHighlight</key>
+				<dict>
+					<key>size</key>
+					<string>{1,1}</string>
+					<key>origin</key>
+					<string>{{0,0},{125,125}}</string>
+				</dict>
+				<key>giShadow</key>
+				<dict>
+					<key>size</key>
+					<string>{1,1}</string>
+					<key>origin</key>
+					<string>{{125,0},{125,125}}</string>
+				</dict>
+				<key>gameIcons</key>
+				<dict>
+					<key>size</key>
+					<string>{4,3}</string>
+					<key>origin</key>
+					<string>{{0,125},{125,125}}</string>
+					<key>highlight</key>
+					<string>giHighlight</string>
+					<key>shadow</key>
+					<string>giShadow</string>
+				</dict>
+			</dict>
+			<key>filename</key>
+			<string>atlasMainIcons.tga</string>
+		</dict>
+		<key>helpGameMode</key>
+		<dict>
+			<key>strips</key>
+			<dict>
+				<key>default</key>
+				<dict>
+					<key>size</key>
+					<string>{2,3}</string>
+					<key>origin</key>
+					<string>{{0,0},{480,320}}</string>
+				</dict>
+			</dict>
+			<key>filename</key>
+			<string>atlasWidgetHelpGameMode.tga</string>
+		</dict>
+		<key>achievements</key>
+		<dict>
+			<key>strips</key>
+			<dict>
+				<key>trophy</key>
+				<dict>
+					<key>size</key>
+					<string>{2,2}</string>
+					<key>origin</key>
+					<string>{{256,256},{64,64}}</string>
+				</dict>
+				<key>weapon</key>
+				<dict>
+					<key>size</key>
+					<string>{4,1}</string>
+					<key>origin</key>
+					<string>{{0,384},{64,64}}</string>
+				</dict>
+				<key>shirt</key>
+				<dict>
+					<key>size</key>
+					<string>{4,2}</string>
+					<key>origin</key>
+					<string>{{0,256},{64,64}}</string>
+				</dict>
+				<key>level</key>
+				<dict>
+					<key>size</key>
+					<string>{1,4}</string>
+					<key>origin</key>
+					<string>{{404,0},{64,64}}</string>
+				</dict>
+				<key>dialog</key>
+				<dict>
+					<key>size</key>
+					<string>{1,1}</string>
+					<key>origin</key>
+					<string>{{0,0},{404,256}}</string>
+				</dict>
+			</dict>
+			<key>filename</key>
+			<string>atlasAchievements.tga</string>
+		</dict>
+		<key>helpInGame2</key>
+		<dict>
+			<key>strips</key>
+			<dict>
+				<key>default</key>
+				<dict>
+					<key>size</key>
+					<string>{2,2}</string>
+					<key>origin</key>
+					<string>{{0,0},{480,320}}</string>
+				</dict>
+			</dict>
+			<key>filename</key>
+			<string>atlasWidgetHelpInGame2.tga</string>
+		</dict>
+		<key>helpInGame1</key>
+		<dict>
+			<key>strips</key>
+			<dict>
+				<key>default</key>
+				<dict>
+					<key>size</key>
+					<string>{2,3}</string>
+					<key>origin</key>
+					<string>{{0,0},{480,320}}</string>
+				</dict>
+			</dict>
+			<key>filename</key>
+			<string>atlasWidgetHelpInGame1.tga</string>
+		</dict>
+		<key>helpShirtTrophyLvl</key>
+		<dict>
+			<key>strips</key>
+			<dict>
+				<key>default</key>
+				<dict>
+					<key>size</key>
+					<string>{2,3}</string>
+					<key>origin</key>
+					<string>{{0,0},{480,320}}</string>
+				</dict>
+			</dict>
+			<key>filename</key>
+			<string>atlasWidgetHelpShirtTrophy.tga</string>
+		</dict>
+		<key>weaponTray</key>
+		<dict>
+			<key>strips</key>
+			<dict>
+				<key>fknrun</key>
+				<dict>
+					<key>size</key>
+					<string>{1,1}</string>
+					<key>origin</key>
+					<string>{{467,0},{40,40}}</string>
+				</dict>
+				<key>status</key>
+				<dict>
+					<key>origin</key>
+					<string>{{0,168},{32,32}}</string>
+					<key>size</key>
+					<string>{9,5}</string>
+				</dict>
+				<key>icon</key>
+				<dict>
+					<key>touch</key>
+					<string>{{10,0},{86,64}}</string>
+					<key>size</key>
+					<string>{5,2}</string>
+					<key>origin</key>
+					<string>{{0,40},{96,64}}</string>
+				</dict>
+				<key>tray</key>
+				<dict>
+					<key>size</key>
+					<string>{1,1}</string>
+					<key>origin</key>
+					<string>{{40,0},{427,40}}</string>
+				</dict>
+				<key>hud</key>
+				<dict>
+					<key>size</key>
+					<string>{1,1}</string>
+					<key>origin</key>
+					<string>{{0,0},{40,40}}</string>
+					<key>overlayStrip</key>
+					<string>status</string>
+				</dict>
+			</dict>
+			<key>filename</key>
+			<string>atlasWidgetWeapons.tga</string>
+		</dict>
+		<key>main</key>
+		<dict>
+			<key>strips</key>
+			<dict>
+				<key>waiting</key>
+				<dict>
+					<key>origin</key>
+					<string>{{445,148},{39,100}}</string>
+					<key>size</key>
+					<string>{1,1}</string>
+				</dict>
+				<key>menuLine</key>
+				<dict>
+					<key>size</key>
+					<string>{1,1}</string>
+					<key>origin</key>
+					<string>{{463,39},{1,2}}</string>
+				</dict>
+				<key>menuBackground</key>
+				<dict>
+					<key>size</key>
+					<string>{1,1}</string>
+					<key>origin</key>
+					<string>{{463,39},{1,1}}</string>
+				</dict>
+				<key>yesNoCancel</key>
+				<dict>
+					<key>size</key>
+					<string>{3,1}</string>
+					<key>origin</key>
+					<string>{{0,235},{96,16}}</string>
+				</dict>
+				<key>gameOver</key>
+				<dict>
+					<key>origin</key>
+					<string>{{160,110},{256,121}}</string>
+					<key>size</key>
+					<string>{1,1}</string>
+				</dict>
+				<key>captions</key>
+				<dict>
+					<key>size</key>
+					<string>{1,8}</string>
+					<key>origin</key>
+					<string>{{0,108},{160,16}}</string>
+				</dict>
+				<key>arrows</key>
+				<dict>
+					<key>size</key>
+					<string>{2,1}</string>
+					<key>origin</key>
+					<string>{{446,84},{32,64}}</string>
+				</dict>
+				<key>cornerHud</key>
+				<dict>
+					<key>size</key>
+					<string>{2,1}</string>
+					<key>origin</key>
+					<string>{{412,44},{40,40}}</string>
+				</dict>
+				<key>btnLarge</key>
+				<dict>
+					<key>size</key>
+					<string>{1,1}</string>
+					<key>overlayStrip</key>
+					<string>captions</string>
+					<key>origin</key>
+					<string>{{102,44},{202,64}}</string>
+					<key>centerOffset</key>
+					<string>{0,12}</string>
+				</dict>
+				<key>logo</key>
+				<dict>
+					<key>size</key>
+					<string>{1,1}</string>
+					<key>origin</key>
+					<string>{{304,44},{108,64}}</string>
+				</dict>
+				<key>helpText</key>
+				<dict>
+					<key>size</key>
+					<string>{1,1}</string>
+					<key>touch</key>
+					<string>{{0,0},{64,20}}</string>
+					<key>origin</key>
+					<string>{{412,84},{34,16}}</string>
+				</dict>
+				<key>btnSmall</key>
+				<dict>
+					<key>centerOffset</key>
+					<string>{0,12}</string>
+					<key>overlayStrip</key>
+					<string>yesNoCancel</string>
+					<key>size</key>
+					<string>{1,1}</string>
+					<key>origin</key>
+					<string>{{0,44},{102,64}}</string>
+				</dict>
+				<key>slideCarot</key>
+				<dict>
+					<key>size</key>
+					<string>{1,1}</string>
+					<key>origin</key>
+					<string>{{480,0},{32,32}}</string>
+				</dict>
+				<key>slideBar</key>
+				<dict>
+					<key>touch</key>
+					<string>{{-20,-20},{296,40}}</string>
+					<key>size</key>
+					<string>{1,1}</string>
+					<key>origin</key>
+					<string>{{208,40},{256,4}}</string>
+				</dict>
+				<key>healthBar</key>
+				<dict>
+					<key>size</key>
+					<string>{1,1}</string>
+					<key>origin</key>
+					<string>{{0,40},{100,4}}</string>
+				</dict>
+				<key>hudBar</key>
+				<dict>
+					<key>size</key>
+					<string>{1,2}</string>
+					<key>origin</key>
+					<string>{{0,0},{480,20}}</string>
+				</dict>
+			</dict>
+			<key>filename</key>
+			<string>atlasWidgetMain.tga</string>
+		</dict>
+		<key>helpMain</key>
+		<dict>
+			<key>strips</key>
+			<dict>
+				<key>default</key>
+				<dict>
+					<key>size</key>
+					<string>{2,4}</string>
+					<key>origin</key>
+					<string>{{0,0},{480,320}}</string>
+				</dict>
+			</dict>
+			<key>filename</key>
+			<string>atlasWidgetHelpMain.tga</string>
+		</dict>
+		<key>loading</key>
+		<dict>
+			<key>strips</key>
+			<dict>
+				<key>loadingDots</key>
+				<dict>
+					<key>size</key>
+					<string>{4,1}</string>
+					<key>origin</key>
+					<string>{{0,320},{48,16}}</string>
+				</dict>
+				<key>background</key>
+				<dict>
+					<key>size</key>
+					<string>{1,1}</string>
+					<key>origin</key>
+					<string>{{0,0},{480,320}}</string>
+				</dict>
+			</dict>
+			<key>filename</key>
+			<string>atlasWidgetLoading.tga</string>
+		</dict>
+		<key>font</key>
+		<dict>
+			<key>strips</key>
+			<dict>
+				<key>appleCasual32</key>
+				<dict>
+					<key>size</key>
+					<string>{16,6}</string>
+					<key>origin</key>
+					<string>{{0,192},{32,32}}</string>
+					<key>characterOffset</key>
+					<integer>32</integer>
+					<key>fixedWidth</key>
+					<true/>
+					<key>characterSpacing</key>
+					<integer>16</integer>
+				</dict>
+				<key>chalkDust32</key>
+				<dict>
+					<key>thinSpace</key>
+					<integer>16</integer>
+					<key>wideSpace</key>
+					<integer>20</integer>
+					<key>size</key>
+					<string>{16,6}</string>
+					<key>origin</key>
+					<string>{{0,384},{32,32}}</string>
+					<key>characterOffset</key>
+					<integer>32</integer>
+					<key>atlasOffset</key>
+					<string>{0,2}</string>
+					<key>fixedWidth</key>
+					<false/>
+					<key>characterSpacing</key>
+					<integer>20</integer>
+				</dict>
+				<key>copperplateOutline32</key>
+				<dict>
+					<key>size</key>
+					<string>{16,6}</string>
+					<key>origin</key>
+					<string>{{512,0},{32,32}}</string>
+					<key>fixedWidth</key>
+					<true/>
+					<key>characterSpacing</key>
+					<integer>16</integer>
+					<key>characterOffset</key>
+					<integer>32</integer>
+				</dict>
+				<key>helveticaSpatter32</key>
+				<dict>
+					<key>size</key>
+					<string>{16,6}</string>
+					<key>origin</key>
+					<string>{{0,768},{32,32}}</string>
+					<key>fixedWidth</key>
+					<true/>
+					<key>characterSpacing</key>
+					<integer>20</integer>
+					<key>characterOffset</key>
+					<integer>32</integer>
+				</dict>
+				<key>helveticaOutline32</key>
+				<dict>
+					<key>size</key>
+					<string>{16,6}</string>
+					<key>origin</key>
+					<string>{{0,576},{32,32}}</string>
+					<key>fixedWidth</key>
+					<true/>
+					<key>characterSpacing</key>
+					<integer>16</integer>
+					<key>characterOffset</key>
+					<integer>32</integer>
+				</dict>
+				<key>bloodScrawl32</key>
+				<dict>
+					<key>size</key>
+					<string>{16,6}</string>
+					<key>origin</key>
+					<string>{{0,0},{32,32}}</string>
+					<key>wideSpace</key>
+					<integer>28</integer>
+					<key>thinSpace</key>
+					<integer>16</integer>
+					<key>characterSpacing</key>
+					<integer>20</integer>
+					<key>characterOffset</key>
+					<integer>32</integer>
+					<key>fixedWidth</key>
+					<false/>
+				</dict>
+				<key>appleCasual16</key>
+				<dict>
+					<key>size</key>
+					<string>{16,6}</string>
+					<key>origin</key>
+					<string>{{512,192},{16,16}}</string>
+					<key>characterOffset</key>
+					<integer>32</integer>
+					<key>atlasOffset</key>
+					<string>{0,0}</string>
+					<key>fixedWidth</key>
+					<true/>
+					<key>characterSpacing</key>
+					<integer>8</integer>
+				</dict>
+			</dict>
+			<key>filename</key>
+			<string>atlasWidgetFonts.tga</string>
+		</dict>
+	</dict>
+	<key>movies</key>
+	<dict>
+		<key>introSilent</key>
+		<array>
+			<dict>
+				<key>filename</key>
+				<string>zaIntroMute.m4v</string>
+				<key>touchAvailableAfter</key>
+				<integer>10000</integer>
+			</dict>
+		</array>
+		<key>intro</key>
+		<array>
+			<dict>
+				<key>filename</key>
+				<string>zaIntro.m4v</string>
+				<key>touchAvailableAfter</key>
+				<integer>10000</integer>
+			</dict>
+		</array>
+	</dict>
+	<key>imageOffsets</key>
+	<dict>
+		<key>btnNewGame.tga</key>
+		<array>
+			<integer>0</integer>
+			<integer>12</integer>
+			<integer>202</integer>
+			<integer>52</integer>
+		</array>
+		<key>btnLoadGame.tga</key>
+		<array>
+			<integer>0</integer>
+			<integer>12</integer>
+			<integer>202</integer>
+			<integer>52</integer>
+		</array>
+		<key>btnResumeGame.tga</key>
+		<array>
+			<integer>0</integer>
+			<integer>12</integer>
+			<integer>202</integer>
+			<integer>52</integer>
+		</array>
+		<key>btnOptions.tga</key>
+		<array>
+			<integer>0</integer>
+			<integer>12</integer>
+			<integer>202</integer>
+			<integer>52</integer>
+		</array>
+		<key>btnQuitGame.tga</key>
+		<array>
+			<integer>0</integer>
+			<integer>12</integer>
+			<integer>202</integer>
+			<integer>52</integer>
+		</array>
+	</dict>
+	<key>credits</key>
+	<array>
+		<string>ZOMBIE ARCADE
+by
+Stormforge Software</string>
+		<string>Modelling and Animation
+by
+Stormy</string>
+		<string>Music
+by
+Incompetech Creative
+Industries</string>
+		<string>Concept, Design
+and Coding
+by
+Stormy</string>
+		<string>Zombie Test Crew:
+Wolfpretzel
+DeadLea</string>
+		<string>Gameplay Consultant:
+Wolfpretzel</string>
+		<string>Original Artwork
+by
+Stormy</string>
+		<string>Design Consultant:
+DeadLea</string>
+		<string>Introduction Movie
+and Music
+by
+Stormy</string>
+		<string>Special Thanks To:</string>
+		<string>Leanna</string>
+		<string>Texas T.D.</string>
+		<string>Clan Briscoe</string>
+		<string>The Grape Lace Factory</string>
+		<string>George A. Romero</string>
+		<string>Zombie movies 
+and
+zombiephiles
+everywhere...</string>
+		<string>Copyright 2009
+Stormforge Software</string>
+	</array>
+	<key>weapons</key>
+	<dict>
+		<key>weapon9mm</key>
+		<dict>
+			<key>decapChance</key>
+			<real>0.05</real>
+			<key>fireDelay</key>
+			<real>0.2</real>
+			<key>hudIcon</key>
+			<string>{0,1}</string>
+			<key>ammo</key>
+			<dict>
+				<key>clipSize</key>
+				<integer>5</integer>
+				<key>startSpare</key>
+				<integer>50</integer>
+				<key>maxSpare</key>
+				<integer>50</integer>
+				<key>perShot</key>
+				<string>1</string>
+			</dict>
+			<key>slotNumber</key>
+			<integer>0</integer>
+			<key>scoreMultiplier</key>
+			<integer>5</integer>
+			<key>sound</key>
+			<dict>
+				<key>fire</key>
+				<string>glockFire.ogg</string>
+				<key>dry</key>
+				<string>glockDry.ogg</string>
+				<key>reload</key>
+				<string>glockReload.ogg</string>
+				<key>draw</key>
+				<string>glockDraw.ogg</string>
+			</dict>
+			<key>displayName</key>
+			<string>9mm Handgun</string>
+			<key>firePower</key>
+			<integer>40</integer>
+			<key>statusIcon</key>
+			<string>{0,0}</string>
+		</dict>
+		<key>weapon45</key>
+		<dict>
+			<key>decapChance</key>
+			<real>0.25</real>
+			<key>achievementId</key>
+			<string>weaponMagnum</string>
+			<key>fireDelay</key>
+			<real>0.3</real>
+			<key>hudIcon</key>
+			<string>{1,1}</string>
+			<key>slotNumber</key>
+			<integer>1</integer>
+			<key>ammo</key>
+			<dict>
+				<key>clipSize</key>
+				<integer>6</integer>
+				<key>startSpare</key>
+				<integer>50</integer>
+				<key>maxSpare</key>
+				<integer>50</integer>
+				<key>perShot</key>
+				<string>1</string>
+			</dict>
+			<key>scoreMultiplier</key>
+			<integer>9</integer>
+			<key>sound</key>
+			<dict>
+				<key>fire</key>
+				<string>springfieldFire.ogg</string>
+				<key>dry</key>
+				<string>springfieldDry.ogg</string>
+				<key>reload</key>
+				<string>revolverReload.ogg</string>
+				<key>draw</key>
+				<string>revolverDraw.ogg</string>
+			</dict>
+			<key>displayName</key>
+			<string>.45 Magnum</string>
+			<key>firePower</key>
+			<integer>80</integer>
+			<key>statusIcon</key>
+			<string>{0,1}</string>
+		</dict>
+		<key>weaponRecords</key>
+		<dict>
+			<key>decapChance</key>
+			<real>0.1</real>
+			<key>achievementId</key>
+			<string>weaponRecord</string>
+			<key>fireDelay</key>
+			<real>0.4</real>
+			<key>hudIcon</key>
+			<string>{4,1}</string>
+			<key>slotNumber</key>
+			<integer>2</integer>
+			<key>ammo</key>
+			<dict>
+				<key>spinX</key>
+				<integer>0</integer>
+				<key>spinY</key>
+				<integer>10</integer>
+				<key>spinZ</key>
+				<integer>0</integer>
+				<key>model</key>
+				<string>ammo_record</string>
+				<key>clipSize</key>
+				<integer>5</integer>
+				<key>startSpare</key>
+				<integer>20</integer>
+				<key>maxSpare</key>
+				<integer>50</integer>
+				<key>perShot</key>
+				<string>1</string>
+				<key>randomRotation</key>
+				<true/>
+			</dict>
+			<key>scoreMultiplier</key>
+			<integer>16</integer>
+			<key>sound</key>
+			<dict>
+				<key>fire</key>
+				<string>throw.ogg</string>
+				<key>dry</key>
+				<string>recordDry.ogg</string>
+				<key>reload</key>
+				<string>recordReloadFull.ogg</string>
+				<key>draw</key>
+				<string>recordDraw.ogg</string>
+			</dict>
+			<key>displayName</key>
+			<string>Vinyl Vengeance</string>
+			<key>firePower</key>
+			<integer>30</integer>
+			<key>statusIcon</key>
+			<string>{0,4}</string>
+		</dict>
+		<key>weaponGolfClub</key>
+		<dict>
+			<key>decapChance</key>
+			<integer>0</integer>
+			<key>achievementId</key>
+			<string>weaponGolf</string>
+			<key>fireDelay</key>
+			<real>0.4</real>
+			<key>hudIcon</key>
+			<string>{3,1}</string>
+			<key>slotNumber</key>
+			<integer>3</integer>
+			<key>ammo</key>
+			<dict>
+				<key>randomRotation</key>
+				<false/>
+				<key>spinX</key>
+				<integer>150</integer>
+				<key>spinY</key>
+				<integer>100</integer>
+				<key>spinZ</key>
+				<integer>0</integer>
+				<key>model</key>
+				<string>ammo_golfBall</string>
+				<key>clipSize</key>
+				<integer>5</integer>
+				<key>startSpare</key>
+				<integer>50</integer>
+				<key>maxSpare</key>
+				<integer>50</integer>
+				<key>perShot</key>
+				<string>1</string>
+			</dict>
+			<key>scoreMultiplier</key>
+			<integer>18</integer>
+			<key>sound</key>
+			<dict>
+				<key>fire</key>
+				<string>golfFire.ogg</string>
+				<key>dry</key>
+				<string>golfDryFire.ogg</string>
+				<key>reload</key>
+				<string>golfReload.ogg</string>
+				<key>draw</key>
+				<string>golfDraw.ogg</string>
+			</dict>
+			<key>displayName</key>
+			<string>Nine Iron</string>
+			<key>firePower</key>
+			<integer>30</integer>
+			<key>statusIcon</key>
+			<string>{0,3}</string>
+		</dict>
+		<key>weaponShotgun</key>
+		<dict>
+			<key>decapChance</key>
+			<real>0.3</real>
+			<key>achievementId</key>
+			<string>weaponShotgun</string>
+			<key>fireDelay</key>
+			<real>0.8</real>
+			<key>hudIcon</key>
+			<string>{2,1}</string>
+			<key>slotNumber</key>
+			<integer>4</integer>
+			<key>ammo</key>
+			<dict>
+				<key>clipSize</key>
+				<integer>8</integer>
+				<key>startSpare</key>
+				<integer>50</integer>
+				<key>maxSpare</key>
+				<integer>50</integer>
+				<key>perShot</key>
+				<string>1</string>
+			</dict>
+			<key>scoreMultiplier</key>
+			<integer>17</integer>
+			<key>sound</key>
+			<dict>
+				<key>fire</key>
+				<string>winchesterFirePump.ogg</string>
+				<key>dry</key>
+				<string>remingtonDry.ogg</string>
+				<key>reload</key>
+				<string>shotgunReloadFull.ogg</string>
+				<key>draw</key>
+				<string>shotgunDraw.ogg</string>
+			</dict>
+			<key>displayName</key>
+			<string>Shotgun</string>
+			<key>firePower</key>
+			<integer>100</integer>
+			<key>statusIcon</key>
+			<string>{0,2}</string>
+		</dict>
+	</dict>
+	<key>GREE</key>
+	<dict>
+		<key>appId</key>
+		<string>9500</string>
+		<key>consumerKey</key>
+		<string>990f8feed017</string>
+		<key>consumerSecret</key>
+		<string>3febf87dc2b46138606a673894ad497b</string>
+	</dict>
+	<key>comparisonsReference</key>
+	<array>
+		<string>&lt;</string>
+		<string>&lt;=</string>
+		<string>==</string>
+		<string>&gt;=</string>
+		<string>&gt;</string>
+		<string>!=</string>
+	</array>
+	<key>achievements</key>
+	<dict>
+		<key>level5</key>
+		<dict>
+			<key>kind</key>
+			<string>level</string>
+			<key>name</key>
+			<string>Frequent Die-ers</string>
+			<key>atlasOffset</key>
+			<string>{0,3}</string>
+			<key>requirements</key>
+			<array>
+				<dict>
+					<key>comparison</key>
+					<integer>2</integer>
+					<key>levelNumber</key>
+					<integer>3</integer>
+				</dict>
+				<dict>
+					<key>comparison</key>
+					<integer>2</integer>
+					<key>gradeNumber</key>
+					<integer>5</integer>
+				</dict>
+			</array>
+			<key>description</key>
+			<string>Zombies on a plane! Nah - just in the
+airport terminal! Take &apos;em down domestic
+or international but watch out for those
+travellators...
+(access this level from the game menu)</string>
+		</dict>
+		<key>level4</key>
+		<dict>
+			<key>kind</key>
+			<string>level</string>
+			<key>name</key>
+			<string>Zombies On Stairs</string>
+			<key>atlasOffset</key>
+			<string>{0,2}</string>
+			<key>requirements</key>
+			<array>
+				<dict>
+					<key>comparison</key>
+					<integer>2</integer>
+					<key>levelNumber</key>
+					<integer>2</integer>
+				</dict>
+				<dict>
+					<key>comparison</key>
+					<integer>2</integer>
+					<key>gradeNumber</key>
+					<integer>5</integer>
+				</dict>
+			</array>
+			<key>description</key>
+			<string>Will they ever learn? Have a blast toppling
+the undead from up high or take them out
+from below, all in the stylish stairwell of
+the Apple Store.
+(access this level from the game menu)</string>
+		</dict>
+		<key>level3</key>
+		<dict>
+			<key>kind</key>
+			<string>level</string>
+			<key>name</key>
+			<string>O&apos;Gradys Burger Joint</string>
+			<key>atlasOffset</key>
+			<string>{0,1}</string>
+			<key>requirements</key>
+			<array>
+				<dict>
+					<key>gradeNumber</key>
+					<integer>5</integer>
+					<key>comparison</key>
+					<integer>2</integer>
+				</dict>
+				<dict>
+					<key>comparison</key>
+					<integer>2</integer>
+					<key>levelNumber</key>
+					<integer>1</integer>
+				</dict>
+			</array>
+			<key>description</key>
+			<string>Grab a burger and some fries and make 
+short work of these zombies with monster
+appetites.
+(access this level from the game menu)</string>
+		</dict>
+		<key>level2</key>
+		<dict>
+			<key>kind</key>
+			<string>level</string>
+			<key>atlasOffset</key>
+			<string>{0,0}</string>
+			<key>name</key>
+			<string>Lobby Lawlessness</string>
+			<key>description</key>
+			<string>Zombies. A millitary-controlled building.
+Granite-tiled pillars. An unlimited supply of 
+ammo.  What more could you want?
+(access this level from the game menu)</string>
+			<key>requirements</key>
+			<array>
+				<dict>
+					<key>gradeNumber</key>
+					<integer>5</integer>
+					<key>comparison</key>
+					<integer>2</integer>
+				</dict>
+				<dict>
+					<key>levelNumber</key>
+					<integer>0</integer>
+					<key>comparison</key>
+					<integer>2</integer>
+				</dict>
+			</array>
+		</dict>
+		<key>weaponShotgun</key>
+		<dict>
+			<key>kind</key>
+			<string>weapon</string>
+			<key>name</key>
+			<string>The Shotgun</string>
+			<key>atlasOffset</key>
+			<string>{1,0}</string>
+			<key>objectName</key>
+			<string>weaponShotgun</string>
+			<key>requirements</key>
+			<array>
+				<dict>
+					<key>comparison</key>
+					<integer>2</integer>
+					<key>levelNumber</key>
+					<integer>3</integer>
+				</dict>
+				<dict>
+					<key>comparison</key>
+					<integer>2</integer>
+					<key>gradeNumber</key>
+					<integer>7</integer>
+				</dict>
+			</array>
+			<key>description</key>
+			<string>A zombie hunter&apos;s weapon of choice. Eight
+shells. Pump action. Enough power to stop a
+charging bull. Don&apos;t leave home without it.
+(available in your weapon tray NOW!)</string>
+		</dict>
+		<key>weaponGolf</key>
+		<dict>
+			<key>kind</key>
+			<string>weapon</string>
+			<key>name</key>
+			<string>The Nine Iron</string>
+			<key>atlasOffset</key>
+			<string>{2,0}</string>
+			<key>objectName</key>
+			<string>weaponGolfClub</string>
+			<key>requirements</key>
+			<array>
+				<dict>
+					<key>comparison</key>
+					<integer>2</integer>
+					<key>levelNumber</key>
+					<integer>2</integer>
+				</dict>
+				<dict>
+					<key>comparison</key>
+					<integer>2</integer>
+					<key>gradeNumber</key>
+					<integer>7</integer>
+				</dict>
+			</array>
+			<key>description</key>
+			<string>Fore! Six! Eighteen! Release your inner Tiger
+with this titanium terror. Relax. Be the ball!
+(available in your weapon tray NOW!)</string>
+		</dict>
+		<key>weaponMagnum</key>
+		<dict>
+			<key>kind</key>
+			<string>weapon</string>
+			<key>name</key>
+			<string>The Magnum</string>
+			<key>atlasOffset</key>
+			<string>{0,0}</string>
+			<key>objectName</key>
+			<string>weapon45</string>
+			<key>requirements</key>
+			<array>
+				<dict>
+					<key>comparison</key>
+					<integer>2</integer>
+					<key>levelNumber</key>
+					<integer>1</integer>
+				</dict>
+				<dict>
+					<key>comparison</key>
+					<integer>2</integer>
+					<key>gradeNumber</key>
+					<integer>7</integer>
+				</dict>
+			</array>
+			<key>description</key>
+			<string>The most powerful hand-held cannon money can
+buy. For removing the head or destroying the
+brain, there&apos;s nothing better.
+(available in your weapon tray NOW!)</string>
+		</dict>
+		<key>weaponRecord</key>
+		<dict>
+			<key>kind</key>
+			<string>weapon</string>
+			<key>name</key>
+			<string>Vinyl Vengeance</string>
+			<key>atlasOffset</key>
+			<string>{3,0}</string>
+			<key>objectName</key>
+			<string>weaponRecords</string>
+			<key>requirements</key>
+			<array>
+				<dict>
+					<key>comparison</key>
+					<integer>2</integer>
+					<key>levelNumber</key>
+					<integer>0</integer>
+				</dict>
+				<dict>
+					<key>comparison</key>
+					<integer>2</integer>
+					<key>gradeNumber</key>
+					<integer>2</integer>
+				</dict>
+			</array>
+			<key>description</key>
+			<string>Is this the second album you ever bought?
+Oh well, toss it anyway.  Give those zombies
+a taste of some top notch Electro, not Hip Hop.
+(available in your weapon tray NOW!)</string>
+		</dict>
+		<key>trophyKeys</key>
+		<dict>
+			<key>kind</key>
+			<string>trophy</string>
+			<key>name</key>
+			<string>Captain&apos;s Privilege</string>
+			<key>atlasOffset</key>
+			<string>{1,0}</string>
+			<key>objectName</key>
+			<string>trophyKeys</string>
+			<key>requirements</key>
+			<array>
+				<dict>
+					<key>comparison</key>
+					<integer>2</integer>
+					<key>onlyWeapon</key>
+					<integer>3</integer>
+				</dict>
+				<dict>
+					<key>comparison</key>
+					<integer>2</integer>
+					<key>gradeNumber</key>
+					<integer>5</integer>
+				</dict>
+			</array>
+			<key>description</key>
+			<string>You certainly got into the swing of things
+with that club. Four whole grades and you 
+still haven&apos;t put it down. Rest your 
+blistered fingers with a cruise on the bay 
+- if you can get there, that is...
+(standing proudly in your trophy cabinet)</string>
+		</dict>
+		<key>trophyTwinkie</key>
+		<dict>
+			<key>kind</key>
+			<string>trophy</string>
+			<key>name</key>
+			<string>Yosimite&apos;s Grail</string>
+			<key>atlasOffset</key>
+			<string>{1,1}</string>
+			<key>objectName</key>
+			<string>trophyGrail</string>
+			<key>requirements</key>
+			<array>
+				<dict>
+					<key>comparison</key>
+					<integer>3</integer>
+					<key>levelsMaxed</key>
+					<integer>3</integer>
+				</dict>
+			</array>
+			<key>description</key>
+			<string>We are not worthy! You truly are a GOD amongst
+men. Three whole levels completed to the night
+-mare grade ten. Amazing! We bow down as we
+bestow upon you this most delicious prize.
+(standing proudly in your trophy cabinet)</string>
+		</dict>
+		<key>trophyMug</key>
+		<dict>
+			<key>kind</key>
+			<string>trophy</string>
+			<key>name</key>
+			<string>World&apos;s Best Zombie Hunter</string>
+			<key>atlasOffset</key>
+			<string>{0,1}</string>
+			<key>objectName</key>
+			<string>trophyBestMug</string>
+			<key>requirements</key>
+			<array>
+				<dict>
+					<key>comparison</key>
+					<integer>3</integer>
+					<key>longestStreak</key>
+					<integer>100</integer>
+				</dict>
+			</array>
+			<key>description</key>
+			<string>Buff up that ego! One-hundred mindless 
+meatsacks disposed of without missing by a
+single millimetre. Rinse it occasionally...
+(standing proudly in your trophy cabinet)</string>
+		</dict>
+		<key>trophyGold</key>
+		<dict>
+			<key>kind</key>
+			<string>trophy</string>
+			<key>name</key>
+			<string>Deep-Fried Delight</string>
+			<key>atlasOffset</key>
+			<string>{0,0}</string>
+			<key>objectName</key>
+			<string>trophyFriedGold</string>
+			<key>requirements</key>
+			<array>
+				<dict>
+					<key>comparison</key>
+					<integer>2</integer>
+					<key>onlyWeapon</key>
+					<integer>2</integer>
+				</dict>
+				<dict>
+					<key>comparison</key>
+					<integer>2</integer>
+					<key>gradeNumber</key>
+					<integer>5</integer>
+				</dict>
+			</array>
+			<key>description</key>
+			<string>Wow! Four whole grades using only 
+Vinyl Vengeance? I&apos;ll bet those zombies
+are dreading the day the LP was born.
+Have a slice or two of deep-fried gold on us.
+(standing proudly in your trophy cabinet)</string>
+		</dict>
+		<key>shirtDanceCrew</key>
+		<dict>
+			<key>kind</key>
+			<string>shirt</string>
+			<key>name</key>
+			<string>Zombie Dance Crew</string>
+			<key>atlasOffset</key>
+			<string>{3,1}</string>
+			<key>objectName</key>
+			<string>shirt8.tga</string>
+			<key>requirements</key>
+			<array>
+				<dict>
+					<key>comparison</key>
+					<integer>2</integer>
+					<key>levelNumber</key>
+					<integer>3</integer>
+				</dict>
+				<dict>
+					<key>comparison</key>
+					<integer>2</integer>
+					<key>gradeNumber</key>
+					<integer>9</integer>
+				</dict>
+			</array>
+			<key>description</key>
+			<string>Maybe Zombies just want to dance? Break a
+leg, guys... or an arm... or a ... ewwww.
+Maybe not.
+(available in the Zombie Shirt Collection)</string>
+		</dict>
+		<key>shirtDrag</key>
+		<dict>
+			<key>kind</key>
+			<string>shirt</string>
+			<key>name</key>
+			<string>I Drag</string>
+			<key>atlasOffset</key>
+			<string>{2,1}</string>
+			<key>objectName</key>
+			<string>shirt7.tga</string>
+			<key>requirements</key>
+			<array>
+				<dict>
+					<key>comparison</key>
+					<integer>2</integer>
+					<key>levelNumber</key>
+					<integer>3</integer>
+				</dict>
+				<dict>
+					<key>comparison</key>
+					<integer>2</integer>
+					<key>gradeNumber</key>
+					<integer>3</integer>
+				</dict>
+			</array>
+			<key>description</key>
+			<string>Some people long to run with wild horses
+but this shirt is much more ... well, you.
+(available in the Zombie Shirt Collection)</string>
+		</dict>
+		<key>shirtSafe</key>
+		<dict>
+			<key>kind</key>
+			<string>shirt</string>
+			<key>name</key>
+			<string>You&apos;re Safe</string>
+			<key>atlasOffset</key>
+			<string>{1,1}</string>
+			<key>objectName</key>
+			<string>shirt6.tga</string>
+			<key>requirements</key>
+			<array>
+				<dict>
+					<key>comparison</key>
+					<integer>2</integer>
+					<key>levelNumber</key>
+					<integer>2</integer>
+				</dict>
+				<dict>
+					<key>comparison</key>
+					<integer>2</integer>
+					<key>gradeNumber</key>
+					<integer>9</integer>
+				</dict>
+			</array>
+			<key>description</key>
+			<string>Let your nextdoor neighbor know what you
+really think. Don&apos;t tell him they also 
+like flesh too...
+(available in the Zombie Shirt Collection)</string>
+		</dict>
+		<key>shirtHeadshot</key>
+		<dict>
+			<key>kind</key>
+			<string>shirt</string>
+			<key>name</key>
+			<string>Headshot</string>
+			<key>atlasOffset</key>
+			<string>{0,1}</string>
+			<key>objectName</key>
+			<string>shirt5.tga</string>
+			<key>requirements</key>
+			<array>
+				<dict>
+					<key>comparison</key>
+					<integer>2</integer>
+					<key>levelNumber</key>
+					<integer>2</integer>
+				</dict>
+				<dict>
+					<key>comparison</key>
+					<integer>2</integer>
+					<key>gradeNumber</key>
+					<integer>3</integer>
+				</dict>
+			</array>
+			<key>description</key>
+			<string>The only kind of shot a zombie looks good
+in. Do the right thing - give them one today!
+(available in the Zombie Shirt Collection)</string>
+		</dict>
+		<key>shirtInsurance</key>
+		<dict>
+			<key>kind</key>
+			<string>shirt</string>
+			<key>name</key>
+			<string>Zombie Insurance</string>
+			<key>atlasOffset</key>
+			<string>{2,0}</string>
+			<key>objectName</key>
+			<string>shirt4.tga</string>
+			<key>requirements</key>
+			<array>
+				<dict>
+					<key>comparison</key>
+					<integer>2</integer>
+					<key>levelNumber</key>
+					<integer>1</integer>
+				</dict>
+				<dict>
+					<key>comparison</key>
+					<integer>2</integer>
+					<key>gradeNumber</key>
+					<integer>9</integer>
+				</dict>
+			</array>
+			<key>description</key>
+			<string>As if they even need to ask. Of course 
+that&apos;s what it is...
+(available in the Zombie Shirt Collection)</string>
+		</dict>
+		<key>shirtNoBrains</key>
+		<dict>
+			<key>kind</key>
+			<string>shirt</string>
+			<key>name</key>
+			<string>No Brains</string>
+			<key>atlasOffset</key>
+			<string>{3,0}</string>
+			<key>objectName</key>
+			<string>shirt3.tga</string>
+			<key>requirements</key>
+			<array>
+				<dict>
+					<key>comparison</key>
+					<integer>2</integer>
+					<key>levelNumber</key>
+					<integer>1</integer>
+				</dict>
+				<dict>
+					<key>comparison</key>
+					<integer>2</integer>
+					<key>gradeNumber</key>
+					<integer>3</integer>
+				</dict>
+			</array>
+			<key>description</key>
+			<string>Now you have the perfect excuse for that 
+forgotten homework or missed deadline!
+Everyone knows you need brains to do that
+sort of stuff! Surely they&apos;ll understand...
+(available in the Zombie Shirt Collection)</string>
+		</dict>
+		<key>shirtCalled</key>
+		<dict>
+			<key>kind</key>
+			<string>shirt</string>
+			<key>name</key>
+			<string>Called In Dead</string>
+			<key>atlasOffset</key>
+			<string>{1,0}</string>
+			<key>objectName</key>
+			<string>shirt2.tga</string>
+			<key>requirements</key>
+			<array>
+				<dict>
+					<key>comparison</key>
+					<integer>2</integer>
+					<key>levelNumber</key>
+					<integer>0</integer>
+				</dict>
+				<dict>
+					<key>comparison</key>
+					<integer>2</integer>
+					<key>gradeNumber</key>
+					<integer>9</integer>
+				</dict>
+			</array>
+			<key>description</key>
+			<string>Is your boss giving you a hard time? 
+Coworkers seem a bit deadish? Used up all 
+your sick days? Why not call in DEAD? 
+Everyone else has, it seems.
+(available in the Zombie Shirt Collection)</string>
+		</dict>
+		<key>shirtEatFlesh</key>
+		<dict>
+			<key>kind</key>
+			<string>shirt</string>
+			<key>name</key>
+			<string>Eat Flesh</string>
+			<key>atlasOffset</key>
+			<string>{0,0}</string>
+			<key>description</key>
+			<string>Zombies have to eat too. Decorate your
+apartment with only the healthiest zombie
+T-Shirt around.
+(available in the Zombie Shirt Collection)</string>
+			<key>requirements</key>
+			<array>
+				<dict>
+					<key>comparison</key>
+					<integer>2</integer>
+					<key>levelNumber</key>
+					<integer>0</integer>
+				</dict>
+				<dict>
+					<key>comparison</key>
+					<integer>2</integer>
+					<key>gradeNumber</key>
+					<integer>3</integer>
+				</dict>
+			</array>
+			<key>objectName</key>
+			<string>shirt1.tga</string>
+		</dict>
+	</dict>
+	<key>gameModes</key>
+	<array>
+		<dict>
+			<key>targetObjective</key>
+			<string>playerHurtTrigger</string>
+			<key>assessGrade</key>
+			<true/>
+			<key>updateLeaderboards</key>
+			<true/>
+			<key>description</key>
+			<string>The zombies are coming, just like you 
+always said they would. You&apos;ve been 
+training for this moment your whole life.
+
+Are you up to the challenge?</string>
+			<key>leaderboards</key>
+			<dict>
+				<key>targetTotal</key>
+				<array>
+					<string>mostZombiesWhacked</string>
+				</array>
+				<key>longestStreak</key>
+				<array>
+					<string>longestPerfectStreak</string>
+				</array>
+				<key>score</key>
+				<array>
+					<string>overallHighestScore</string>
+				</array>
+			</dict>
+			<key>title</key>
+			<string>INVASION (Challenge)</string>
+			<key>logicClass</key>
+			<string>ZASceneLogic_Invasion</string>
+			<key>icon</key>
+			<string>{0,0}</string>
+			<key>identifier</key>
+			<string>challenge</string>
+		</dict>
+		<dict>
+			<key>targetObjective</key>
+			<string>respawnTrigger</string>
+			<key>description</key>
+			<string>Zombies are here and they&apos;re not too
+bright. While everyone else is running 
+for the nearest millitary complex, you&apos;ve 
+found a few cozy little zombie hangouts 
+where you can just sit back and shoot 
+the ...er ...breeze...</string>
+			<key>title</key>
+			<string>SURVIVING BOREDOM (Relax)</string>
+			<key>logicClass</key>
+			<string>ZASceneLogic_Pit</string>
+			<key>icon</key>
+			<string>{1,0}</string>
+			<key>identifier</key>
+			<string>relax</string>
+		</dict>
+	</array>
+	<key>levels</key>
+	<array>
+		<dict>
+			<key>spawnEffect</key>
+			<string>spawnRubble</string>
+			<key>ambientLight</key>
+			<array>
+				<real>0.3</real>
+				<real>0.3</real>
+				<real>0.3</real>
+				<integer>1</integer>
+			</array>
+			<key>targets</key>
+			<dict>
+				<key>ragdollStayTime</key>
+				<string>3.0</string>
+				<key>restitution</key>
+				<string>1.0</string>
+				<key>friction</key>
+				<string>0.25</string>
+				<key>hopStrength</key>
+				<real>0.5</real>
+				<key>forwardSpeed</key>
+				<real>0.8</real>
+				<key>forwardSpeedDelta</key>
+				<string>0.085</string>
+				<key>turnSpeed</key>
+				<integer>6</integer>
+				<key>turnAccuracy</key>
+				<real>0.2</real>
+				<key>damageAmount</key>
+				<integer>3</integer>
+				<key>damageDelta</key>
+				<string>3</string>
+			</dict>
+			<key>leaderboards</key>
+			<dict>
+				<key>score</key>
+				<array>
+					<string>level1</string>
+				</array>
+			</dict>
+			<key>levelNumber</key>
+			<integer>0</integer>
+			<key>useRandomMusic</key>
+			<true/>
+			<key>icon</key>
+			<string>{0,1}</string>
+			<key>enabledForType</key>
+			<array>
+				<string>relax</string>
+				<string>challenge</string>
+			</array>
+			<key>descriptions</key>
+			<dict>
+				<key>relax</key>
+				<string>While working out on the roof of an
+abandoned building one evening, you
+notice a large group of undead 
+cannibals wandering aimlessly out of
+the woods...</string>
+				<key>challenge</key>
+				<string>While jogging one evening, you
+are suddenly confronted with
+a small army of brain-dead
+zombies - good thing you always
+travel prepared...</string>
+			</dict>
+			<key>title</key>
+			<string>WOODSIDE WORKOUT</string>
+			<key>filename</key>
+			<string>scene01.sio2</string>
+		</dict>
+		<dict>
+			<key>targets</key>
+			<dict>
+				<key>ragdollStayTime</key>
+				<string>3.0</string>
+				<key>restitution</key>
+				<string>1.0</string>
+				<key>friction</key>
+				<string>0.25</string>
+				<key>hopStrength</key>
+				<real>0.5</real>
+				<key>forwardSpeed</key>
+				<real>1.25</real>
+				<key>forwardSpeedDelta</key>
+				<string>0.085</string>
+				<key>turnSpeed</key>
+				<integer>6</integer>
+				<key>turnAccuracy</key>
+				<real>0.2</real>
+				<key>damageAmount</key>
+				<integer>3</integer>
+				<key>damageDelta</key>
+				<string>3</string>
+			</dict>
+			<key>ambientLight</key>
+			<array>
+				<real>0.4</real>
+				<real>0.45</real>
+				<real>0.4</real>
+				<integer>1</integer>
+			</array>
+			<key>unlockableObjectId</key>
+			<string>204903</string>
+			<key>levelNumber</key>
+			<integer>1</integer>
+			<key>useRandomMusic</key>
+			<true/>
+			<key>leaderboards</key>
+			<dict>
+				<key>score</key>
+				<array>
+					<string>level2</string>
+				</array>
+			</dict>
+			<key>icon</key>
+			<string>{1,1}</string>
+			<key>enabledForType</key>
+			<array>
+				<string>relax</string>
+				<string>challenge</string>
+			</array>
+			<key>descriptions</key>
+			<dict>
+				<key>relax</key>
+				<string>At this stage of the apocalypse,
+even the army is overrun. It&apos;s
+no surprise, then, that you found
+this deserted millitary building
+just crawling with the undead...</string>
+				<key>challenge</key>
+				<string>They&apos;re coming from everywhere!
+Even the lobby of the local 
+millitary-controlled building!  
+
+Do anything but freeze...</string>
+			</dict>
+			<key>title</key>
+			<string>LOBBY LAWLESSNESS</string>
+			<key>filename</key>
+			<string>scene02.sio2</string>
+		</dict>
+		<dict>
+			<key>targets</key>
+			<dict>
+				<key>ragdollStayTime</key>
+				<string>3.0</string>
+				<key>restitution</key>
+				<string>1.0</string>
+				<key>friction</key>
+				<string>0.25</string>
+				<key>hopStrength</key>
+				<real>0.5</real>
+				<key>forwardSpeed</key>
+				<real>1.25</real>
+				<key>forwardSpeedDelta</key>
+				<string>0.085</string>
+				<key>turnSpeed</key>
+				<integer>6</integer>
+				<key>turnAccuracy</key>
+				<real>0.2</real>
+				<key>damageAmount</key>
+				<integer>3</integer>
+				<key>damageDelta</key>
+				<string>3</string>
+			</dict>
+			<key>unlockableObjectId</key>
+			<string>204913</string>
+			<key>levelNumber</key>
+			<integer>2</integer>
+			<key>useRandomMusic</key>
+			<true/>
+			<key>leaderboards</key>
+			<dict>
+				<key>score</key>
+				<array>
+					<string>level3</string>
+				</array>
+			</dict>
+			<key>icon</key>
+			<string>{2,1}</string>
+			<key>enabledForType</key>
+			<array>
+				<string>relax</string>
+				<string>challenge</string>
+			</array>
+			<key>descriptions</key>
+			<dict>
+				<key>relax</key>
+				<string>Fast food seems to draw in the
+undead like a magnet. And O&apos;Grady&apos;s
+has a nice flat roof space to camp
+out on.  Now all you need is a 
+beer fridge and some nachos...</string>
+				<key>challenge</key>
+				<string>You were just minding your own 
+business down at O&apos;Gradys, deciding
+whether to have the Big Grady or
+the Majestic With Cheese when a hoard
+of mindless flesh-eaters stormed the
+place.  Even un-people gotta eat, right?</string>
+			</dict>
+			<key>title</key>
+			<string>O&apos;GRADYS BURGER JOINT</string>
+			<key>filename</key>
+			<string>scene03.sio2</string>
+		</dict>
+		<dict>
+			<key>targets</key>
+			<dict>
+				<key>ragdollStayTime</key>
+				<string>4.0</string>
+				<key>restitution</key>
+				<string>1.0</string>
+				<key>friction</key>
+				<string>0.25</string>
+				<key>hopStrength</key>
+				<real>0.5</real>
+				<key>forwardSpeed</key>
+				<real>1.25</real>
+				<key>forwardSpeedDelta</key>
+				<string>0.085</string>
+				<key>turnSpeed</key>
+				<integer>6</integer>
+				<key>turnAccuracy</key>
+				<real>0.2</real>
+				<key>damageAmount</key>
+				<integer>3</integer>
+				<key>damageDelta</key>
+				<string>3</string>
+			</dict>
+			<key>unlockableObjectId</key>
+			<string>204923</string>
+			<key>levelNumber</key>
+			<integer>3</integer>
+			<key>useRandomMusic</key>
+			<true/>
+			<key>leaderboards</key>
+			<dict>
+				<key>score</key>
+				<array>
+					<string>level4</string>
+				</array>
+			</dict>
+			<key>icon</key>
+			<string>{3,1}</string>
+			<key>enabledForType</key>
+			<array>
+				<string>relax</string>
+				<string>challenge</string>
+			</array>
+			<key>descriptions</key>
+			<dict>
+				<key>relax</key>
+				<string>The Zombies don&apos;t seem too
+interested in the iPods at the
+Apple store. The lights on the
+glass stairs seem to fascinate
+them, though...</string>
+				<key>challenge</key>
+				<string>Zombies have overrun the 
+Apple store! Whack &apos;em
+before they get all the next
+generation iPods!</string>
+			</dict>
+			<key>title</key>
+			<string>ZOMBIES ON STAIRS</string>
+			<key>filename</key>
+			<string>scene05.sio2</string>
+		</dict>
+		<dict>
+			<key>unlockableObjectId</key>
+			<string>402874</string>
+			<key>targets</key>
+			<dict>
+				<key>ragdollStayTime</key>
+				<string>4.0</string>
+				<key>restitution</key>
+				<string>1.0</string>
+				<key>friction</key>
+				<string>0.25</string>
+				<key>hopStrength</key>
+				<real>0.5</real>
+				<key>forwardSpeed</key>
+				<real>1.4</real>
+				<key>forwardSpeedDelta</key>
+				<string>0.085</string>
+				<key>turnSpeed</key>
+				<integer>6</integer>
+				<key>turnAccuracy</key>
+				<real>0.2</real>
+				<key>damageAmount</key>
+				<integer>3</integer>
+				<key>damageDelta</key>
+				<string>3</string>
+			</dict>
+			<key>levelNumber</key>
+			<integer>4</integer>
+			<key>useRandomMusic</key>
+			<true/>
+			<key>leaderboards</key>
+			<dict>
+				<key>score</key>
+				<array>
+					<string>level5</string>
+				</array>
+			</dict>
+			<key>icon</key>
+			<string>{0,2}</string>
+			<key>enabledForType</key>
+			<array>
+				<string>relax</string>
+				<string>challenge</string>
+			</array>
+			<key>descriptions</key>
+			<dict>
+				<key>relax</key>
+				<string>There seems to be an endless 
+stream of undead air passengers 
+coming from all the gates in the 
+airport! From your hide near 
+Gate 3, you&apos;ve got the perfect spot
+to snipe with style!</string>
+				<key>challenge</key>
+				<string>It&apos;s chaos at the airport!
+Apparently even the undead
+have places to be, people
+to eat...</string>
+			</dict>
+			<key>title</key>
+			<string>FREQUENT DIE-ERS</string>
+			<key>filename</key>
+			<string>scene07.sio2</string>
+		</dict>
+	</array>
+	<key>text</key>
+	<dict>
+		<key>singles</key>
+		<dict>
+			<key>highScoreMessage</key>
+			<string>You got a high score! Way to whack those
+zombies!  Go to the GREE potplant in 
+your apartment if you want to see for
+yourself.</string>
+		</dict>
+		<key>grades</key>
+		<array>
+			<string>When I was a kid...</string>
+			<string>Don&apos;t say the Z word!</string>
+			<string>Limber Up</string>
+			<string>This is the dangerous
+end, right?</string>
+			<string>Girl in the Garden</string>
+			<string>We don&apos;t go there
+anymore...</string>
+			<string>Where&apos;ve you been
+hiding those?</string>
+			<string>You&apos;ve got red on you</string>
+			<string>The end is
+EXTREMELY nigh</string>
+			<string>NIGHTMARE!</string>
+		</array>
+	</dict>
+	<key>mainMenu</key>
+	<dict>
+		<key>ambientLight</key>
+		<array>
+			<real>0.6</real>
+			<real>0.6</real>
+			<real>0.6</real>
+			<real>1</real>
+		</array>
+		<key>noWeapons</key>
+		<true/>
+		<key>useRandomMusic</key>
+		<false/>
+		<key>logicClass</key>
+		<string>ZASceneLogic_MainMenu</string>
+		<key>title</key>
+		<string>Main Menu</string>
+		<key>ambientMusic</key>
+		<string>Shades of Spring.mp3</string>
+		<key>filename</key>
+		<string>scene00.sio2</string>
+	</dict>
+	<key>settings</key>
+	<dict>
+		<key>sfxVolume</key>
+		<real>0.85</real>
+		<key>ambientVolume</key>
+		<real>0.7</real>
+	</dict>
+	<key>music</key>
+	<dict>
+		<key>relax</key>
+		<array>
+			<string>Comic Plodding.mp3</string>
+			<string>Tea Roots.mp3</string>
+			<string>Firmament.mp3</string>
+			<string>Kool Kats.mp3</string>
+			<string>Monster Promenade.mp3</string>
+			<string>One Sly Move.mp3</string>
+			<string>Scheming Weasel faster.mp3</string>
+		</array>
+		<key>challenge</key>
+		<array>
+			<string>DrillMaster.mp3</string>
+			<string>Killing Time.mp3</string>
+			<string>Rocket.mp3</string>
+			<string>In a Heartbeat.mp3</string>
+			<string>Harmful or Fatal.mp3</string>
+			<string>Double O.mp3</string>
+			<string>Enter the Party.mp3</string>
+		</array>
+	</dict>
+	<key>resources</key>
+	<dict>
+		<key>SF3DObject</key>
+		<array>
+			<dict>
+				<key>filename</key>
+				<string>ragdolls.sio2</string>
+				<key>itemClass</key>
+				<string>SF3DObject</string>
+			</dict>
+			<dict>
+				<key>filename</key>
+				<string>props.sio2</string>
+				<key>itemClass</key>
+				<string>SF3DObject</string>
+			</dict>
+		</array>
+		<key>SFAmmo</key>
+		<array>
+			<dict>
+				<key>filename</key>
+				<string>ammo.sio2</string>
+				<key>itemClass</key>
+				<string>SFAmmo</string>
+			</dict>
+		</array>
+		<key>SFRagdoll</key>
+		<array>
+			<dict>
+				<key>filename</key>
+				<string>ragdolls.sio2</string>
+				<key>itemClass</key>
+				<string>SF3DObject</string>
+			</dict>
+		</array>
+		<key>SFTarget</key>
+		<array>
+			<dict>
+				<key>logicClass</key>
+				<string>ZATargetLogic_Zombie</string>
+				<key>filename</key>
+				<string>targets.sio2</string>
+				<key>itemClass</key>
+				<string>ZATarget</string>
+			</dict>
+		</array>
+		<key>SFAction</key>
+		<array>
+			<dict>
+				<key>filename</key>
+				<string>targets.sio2</string>
+			</dict>
+		</array>
+		<key>SFImage</key>
+		<array>
+			<dict>
+				<key>filename</key>
+				<string>res/image</string>
+			</dict>
+		</array>
+		<key>SFSound</key>
+		<array>
+			<dict>
+				<key>filename</key>
+				<string>res/sound</string>
+			</dict>
+			<dict>
+				<key>filename</key>
+				<string>res/music</string>
+			</dict>
+		</array>
+	</dict>
+</dict>
+</plist>

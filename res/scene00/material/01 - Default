@@ -1,0 +1,8 @@
+material( "material/01 - Default" )
+{
+	d( 0.671 0.78 0.831 )
+	sp( 1 1 1 )
+	a( 0.85 )
+	sh( 12 )
+	fr( 0.5 )
+}

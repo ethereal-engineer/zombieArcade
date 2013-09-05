@@ -1,0 +1,9 @@
+object( "object/trophyPos12" )
+{
+	l( 1.495 5.114 0.838 )
+	r( 0 0 323.381 )
+	ra( 0 )
+	di( 1 1 1 )
+	trophyMesh( "aprBoxStack" )
+	trophyId( "weaponMagnum" )
+}

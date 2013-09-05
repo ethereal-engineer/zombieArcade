@@ -1,0 +1,8 @@
+material( "material/frameMaterial" )
+{
+	d( 0.985 0.976 0.811 )
+	sp( 1 1 1 )
+	a( 1 )
+	sh( 12 )
+	fr( 0.5 )
+}

@@ -1,0 +1,8 @@
+object( "object/startPoint0" )
+{
+	l( 6.031 1.919 1.032 )
+	ra( 0 )
+	di( 1 1 1 )
+	trophyId( "116764" )
+	trophyMesh( "gold" )
+}

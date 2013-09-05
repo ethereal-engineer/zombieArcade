@@ -1,0 +1,9 @@
+object( "object/trophyPos6" )
+{
+	l( 0.335 5.213 1.972 )
+	r( 356.049 0.058 315.066 )
+	ra( 0 )
+	di( 1 1 1 )
+	trophyMesh( "shotgun" )
+	trophyId( "weaponShotgun" )
+}

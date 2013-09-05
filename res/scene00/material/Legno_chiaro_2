@@ -1,0 +1,8 @@
+material( "material/Legno_chiaro_2" )
+{
+	d( 0.584 0.584 0.584 )
+	sp( 1 1 1 )
+	a( 1 )
+	sh( 0 )
+	fr( 0.5 )
+}

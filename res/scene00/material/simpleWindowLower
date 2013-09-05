@@ -1,0 +1,11 @@
+material( "material/simpleWindowLower" )
+{
+	tfl0( 1 )
+	t0( "image/leadLinedWindow.tga" )
+	d( 0.884 0.242 0.53 )
+	sp( 1 1 1 )
+	a( 1 )
+	sh( 12 )
+	fr( 0.5 )
+	al( 0.2 )
+}

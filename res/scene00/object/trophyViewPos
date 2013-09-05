@@ -1,0 +1,7 @@
+object( "object/trophyViewPos" )
+{
+	l( -0.153 -3.389 1.821 )
+	r( 0 0 180.0 )
+	ra( 0 )
+	di( 1 1 1 )
+}

@@ -1,0 +1,9 @@
+object( "object/trophyPos5" )
+{
+	l( -0.599 5.128 1.586 )
+	r( 285.223 353.019 24.066 )
+	ra( 0 )
+	di( 1 1 1 )
+	trophyMesh( "magnum" )
+	trophyId( "weaponMagnum" )
+}

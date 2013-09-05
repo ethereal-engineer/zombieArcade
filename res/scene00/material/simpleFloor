@@ -1,0 +1,11 @@
+material( "material/simpleFloor" )
+{
+	tfl0( 0 )
+	t0( "image/woodFloor.tga" )
+	tfi0( -0.02 )
+	d( 0.993 0.993 0.993 )
+	sp( 1 1 1 )
+	a( 1 )
+	sh( 100 )
+	fr( 0.5 )
+}

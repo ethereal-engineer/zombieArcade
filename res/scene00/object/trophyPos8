@@ -1,0 +1,9 @@
+object( "object/trophyPos8" )
+{
+	l( 0.796 4.922 0.721 )
+	r( 0 0 175.361 )
+	ra( 0 )
+	di( 1 1 1 )
+	trophyMesh( "golfBallBoxStack" )
+	trophyId( "weaponGolf" )
+}

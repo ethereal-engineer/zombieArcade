@@ -1,0 +1,8 @@
+material( "material/whiteGloss" )
+{
+	d( 0.999 0.999 0.999 )
+	sp( 1 1 1 )
+	a( 1 )
+	sh( 31 )
+	fr( 0.5 )
+}

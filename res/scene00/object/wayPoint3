@@ -1,0 +1,9 @@
+object( "object/wayPoint3" )
+{
+	l( 7.031 1.919 0.032 )
+	r( 0 0 180 )
+	ra( 0 )
+	di( 1 1 1 )
+	trophyId( "116764" )
+	trophyMesh( "gold" )
+}

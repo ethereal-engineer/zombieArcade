@@ -1,0 +1,9 @@
+object( "object/trophyPos9" )
+{
+	l( 0.394 4.998 0.883 )
+	r( 0 0 288.604 )
+	ra( 0 )
+	di( 1 1 1 )
+	trophyMesh( "recordBox" )
+	trophyId( "weaponRecord" )
+}

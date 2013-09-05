@@ -1,0 +1,11 @@
+material( "material/simpleWindowUpper" )
+{
+	tfl0( 1 )
+	t0( "image/leadLinedWindowSmall.tga" )
+	d( 1 1 1 )
+	sp( 1 1 1 )
+	a( 1 )
+	sh( 12 )
+	fr( 0.5 )
+	al( 0.2 )
+}

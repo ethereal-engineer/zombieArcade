@@ -1,0 +1,8 @@
+material( "material/maceta" )
+{
+	d( 0.541 0.31 0.102 )
+	sp( 1 1 1 )
+	a( 1 )
+	sh( 12 )
+	fr( 0.5 )
+}

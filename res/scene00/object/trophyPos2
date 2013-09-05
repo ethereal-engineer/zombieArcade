@@ -1,0 +1,9 @@
+object( "object/trophyPos2" )
+{
+	l( 3.677 -3.616 1.504 )
+	r( 0 0 250 )
+	ra( 0 )
+	di( 1 1 1 )
+	trophyId( "trophyTwinkie" )
+	trophyMesh( "grail" )
+}

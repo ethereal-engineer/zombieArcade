@@ -1,0 +1,9 @@
+object( "object/trophyPos10" )
+{
+	l( 1.153 5.0 0.794 )
+	r( 0 0 9.353 )
+	ra( 0 )
+	di( 1 1 1 )
+	trophyMesh( "shellWoodBox" )
+	trophyId( "weaponShotgun" )
+}

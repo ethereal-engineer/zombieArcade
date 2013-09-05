@@ -1,0 +1,12 @@
+material( "material/clipboardPaperFloat" )
+{
+	tfl0( 1 )
+	t0( "image/scoreSheet.tga" )
+	d( 1 1 1 )
+	sp( 1 1 1 )
+	a( 1 )
+	sh( 0 )
+	fr( 0.5 )
+	al( 0.2 )
+	b( 13 )
+}

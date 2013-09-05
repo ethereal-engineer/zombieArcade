@@ -1,0 +1,7 @@
+To repair Zombie Arcade (intact):
+
+1. Write Unit tests for achievements and all unlockables and make them pass
+2. Check that Game Center has been implemented correctly
+3. Check that achievement dialogs still work correctly
+4. Implement game center on plant badge
+5. Launch game center on plant tap

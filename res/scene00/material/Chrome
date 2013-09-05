@@ -1,0 +1,8 @@
+material( "material/Chrome" )
+{
+	d( 0.8 0.8 0.8 )
+	sp( 1 1 1 )
+	a( 1 )
+	sh( 12 )
+	fr( 0.5 )
+}

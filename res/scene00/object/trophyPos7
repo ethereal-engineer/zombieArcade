@@ -1,0 +1,9 @@
+object( "object/trophyPos7" )
+{
+	l( 0.52 5.198 2.104 )
+	r( 356.66 0.549 314.842 )
+	ra( 0 )
+	di( 1 1 1 )
+	trophyMesh( "golfClub" )
+	trophyId( "weaponGolf" )
+}

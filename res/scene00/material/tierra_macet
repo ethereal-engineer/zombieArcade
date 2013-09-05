@@ -1,0 +1,8 @@
+material( "material/tierra_macet" )
+{
+	d( 0.392 0.294 0.208 )
+	sp( 1 1 1 )
+	a( 1 )
+	sh( 12 )
+	fr( 0.5 )
+}

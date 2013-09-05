@@ -1,0 +1,8 @@
+material( "material/leafpaloagua" )
+{
+	d( 0.086 0.427 0.008 )
+	sp( 1 1 1 )
+	a( 1 )
+	sh( 12 )
+	fr( 0.5 )
+}

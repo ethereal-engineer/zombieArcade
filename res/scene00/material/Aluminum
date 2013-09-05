@@ -1,0 +1,8 @@
+material( "material/Aluminum" )
+{
+	d( 0.698 0.698 0.698 )
+	sp( 1 1 1 )
+	a( 1 )
+	sh( 12 )
+	fr( 0.5 )
+}

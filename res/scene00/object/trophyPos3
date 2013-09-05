@@ -1,0 +1,9 @@
+object( "object/trophyPos3" )
+{
+	l( 3.677 -4.129 1.504 )
+	r( 0 0 250 )
+	ra( 0 )
+	di( 1 1 1 )
+	trophyId( "trophyGold" )
+	trophyMesh( "gold" )
+}

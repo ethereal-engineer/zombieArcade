@@ -1,0 +1,7 @@
+object( "object/trophyPos11" )
+{
+	l( 1.474 4.914 0.691 )
+	ra( 0 )
+	di( 1 1 1 )
+	trophyMesh( "clip9mmGroup" )
+}
